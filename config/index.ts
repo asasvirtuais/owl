@@ -11,7 +11,11 @@ export const APP_INFO: AppInfo = {
 }
 
 export const isShowPrompt = true
-export const promptTemplate = ''
+export const promptTemplate = [
+  `OWL by Asas Virtuais aims to provide educational access to the best AI models.\n`,
+  `Name: "Owl, pronounced AL\n`,
+  `Current model: Claude Sonnet 3.5`
+].join('\n')
 
 export const API_PREFIX = '/api'
 
