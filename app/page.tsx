@@ -1,5 +1,11 @@
+import type { Metadata } from 'next'
 import type { FC } from 'react'
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: 'Al, o Professor Coruja',
+  description: 'Al (Owl) por Asas Virtuais visa providenciar acesso educacional gratuito aos melhores modelos de Inteligência Artificial.',
+}
 
 const App: FC = () => {
   return (
