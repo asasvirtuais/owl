@@ -1,14 +1,16 @@
 import type { FC } from 'react'
 import React from 'react'
 
-import type { IMainProps } from '@/app/components'
-import Main from '@/app/components'
-
-const App: FC<IMainProps> = ({
-  params,
-}: any) => {
+const App: FC = () => {
   return (
-    <Main params={params} />
+    (
+      <iframe
+        src="https://udify.app/chatbot/ljuEfJAdpGqqm7qc"
+        style="width: 100%; height: 100%; min-height: 100dvh;"
+        frameborder="0"
+        allow="microphone">
+      </iframe>
+    )
   )
 }
 
